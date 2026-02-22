@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="portfoliostyle.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="header">
+        <div class="headerLogo"><a href="#">Sara Andersson</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul class="menu-container">
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="presentation.html">Om mig</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section class="title">
+        <h1 class="maintitle">Projekt</h1>
+      </section>
+      <section class="projects-container">
+        <ul class="project-grid">
+          <!-- Projekt1 -->
+          <li class="project-card">
+            <h2>Bibliotek</h2>
+            <img class="project-img" src="img/Biblioteket.png" alt="" />
+            <div class="botton-section">
+              <a
+                class="botton-minimal"
+                href="https://github.com/SaraPPAndersson/Biblioteket/tree/main"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <a class="botton" href="#modal-one">Mer info!</a>
+            </div>
+          </li>
+
+          <!-- projekt2 -->
+          <li class="project-card">
+            <h2>BankApp(Grupp Projekt)</h2>
+            <img class="project-img" src="img/BankApp.png" alt="" />
+            <div class="botton-section">
+              <a
+                class="botton-minimal"
+                href="https://github.com/AlbertJyllhed/BankApp"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <a class="botton" href="#modal-two">Mer info!</a>
+            </div>
+          </li>
+
+          <!-- projekt3 -->
+          <li class="project-card">
+            <h2>Databas</h2>
+            <img class="project-img" src="img/Database.png" alt="" />
+            <div class="botton-section">
+              <a
+                class="botton-minimal"
+                href="https://github.com/SaraPPAndersson/Labb2School"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <a class="botton" href="#modal-three">Mer info!</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Modal -->
+      <section id="modal-one" class="modal">
+        <a href="#" class="modal-overlay"></a>
+        <div class="modal-box">
+          <a href="#" class="modal-close">x</a>
+          <h2>Biblioteket</h2>
+          <p>
+            Mitt första C# projekt är att bygga ett bibliotek system där man kan
+            logga in, låna, lämna tillbaka böcker och även kolla vilka böcker
+            jag har lånat mm.
+          </p>
+        </div>
+      </section>
+
+      <!-- Modal2 -->
+      <section id="modal-two" class="modal">
+        <a href="#" class="modal-overlay"></a>
+        <div class="modal-box">
+          <a href="#" class="modal-close">x</a>
+          <h2>BankApp</h2>
+          <p>
+            Mitt andra projekt är gruppprojekt som slå ihop OOP och Agil kurser
+            ihop. Vi fick uppdrag att bygga bank app där kunder kan logga in,
+            överföra pengar, ta emot pengar och även skapa konto med olika
+            valutor. Admin funktion ska kunna skapa en ny kundkonto och har
+            möjligheter att ändra daglig valuta.
+          </p>
+        </div>
+      </section>
+
+      <!-- Modal3 -->
+      <section id="modal-three" class="modal">
+        <a href="#" class="modal-overlay"></a>
+        <div class="modal-box">
+          <a href="#" class="modal-close">x</a>
+          <h2>Databas</h2>
+          <p>
+            Databasprojekt med EF & ADO.NET. Jag arbetade med
+            databaskommunikation i SSMS via C# med hjälp av EF och ADO.NET.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-row">
+        <div class="footer-left">
+          <p>Följ mig på sociala medier</p>
+          <div class="logos">
+            <a href="https://github.com/SaraPPAndersson">
+              <img src="img/github.png" alt="Github" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/saraandersson-sa/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYgF9jQC8Swag21iffCsVwQ%3D%3D"
+            >
+              <img src="img/linkedin.png" alt="linkedin"
+            /></a>
+          </div>
+        </div>
+        <ul class="footer-contact">
+          <li>Tel: 072-715 32 85</li>
+          <li>E-post: sara.andersson.sa@hotmail.com</li>
+        </ul>
+        <p class="copyright">&copy; 2026 Sara Andersson, Varberg</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+.contact-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1rem;
+  gap: 1.5rem;
+  width: 50%;
+}
+
+.contact-card {
+  background: #a5d9f3;
+  box-shadow: 0 6px 10px rgb(58, 139, 161);
+  font-size: 1rem;
+  padding: 1.3rem 1.5rem;
+  border-radius: 50px;
+  gap: 0.6rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: larger;
+}
+
+.contact-container h1 {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 700px) {
+  .contacts {
+    width: 80%;
+    margin: 1rem auto;
+    gap: 1rem;
+  }
+
+  .contact-card {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 28px;
+    font-size: 1rem;
+  }
+
+  .contact-card a,
+  .contact-card p,
+  .contact-card li {
+    overflow: anywhere;
+    word-break: break-word;
+    text-align: center;
+  }
+}
