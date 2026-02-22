@@ -16,13 +16,8 @@
 .work,
 .education {
   background: rgb(237, 194, 234);
-  /* padding: 1rem; */
-  /* border-radius: 18px; */
   box-shadow: 0 6px 18px purple;
   font-size: 1rem;
-  /* min-width: 0; */
-  /* overflow-wrap: normal; */
-  /* word-break: normal; */
   padding: 2rem 2rem;
   border-radius: 50px;
   text-align: center;
