@@ -1,0 +1,36 @@
+{
+  "education": [
+    {
+      "title": "Systemutvecklare .NET",
+      "school": "Campus Varberg",
+      "duration": "2025 - pågående"
+    },
+    {
+      "title": "Hotell- och turism programmet",
+      "school": "Peder Skrivares skola",
+      "duration": "2011 - 2014"
+    }
+  ],
+
+  "work": [
+    {
+      "position": "Montör",
+      "company": "Alento AB",
+      "duration": "2016 - nuvarande"
+    },
+
+    {
+      "position": "Kafébiträde",
+      "company": "Gekås Ullared",
+      "duration": "2015 - 2016"
+    }
+  ],
+
+  "skills": [
+    "C# / .NET",
+    "HTML & CSS",
+    "Agil arbetssätt & Scrum",
+    "Databas & SQL",
+    "Entity Framework & ADO.NET"
+  ]
+}

@@ -50,10 +50,10 @@ body {
   flex-direction: column;
 }
 
-html,
+/* html,
 body {
   height: 100%;
-}
+} */
 
 main {
   flex: 1;
@@ -93,7 +93,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0px -1px 4px rgb(182, 198, 201);
+  box-shadow: 0px -1px 8px rgb(182, 198, 201);
 }
 
 .headerLogo a {
@@ -102,13 +102,13 @@ a {
   margin-left: 1rem;
 }
 
-nav.headerLogo a:hover {
+/* nav.headerLogo a:hover {
   color: var(--primary-color-dark);
-}
+} */
 
-nav .checkbox {
+/* nav .checkbox {
   display: none;
-}
+} */
 
 nav input {
   display: none;
@@ -176,7 +176,7 @@ nav .checkbox i {
     justify-content: center;
     gap: 3rem;
     transition: left 0.35s;
-  }
+}
   .menu-container li {
     margin-bottom: 2rem;
   }
@@ -195,7 +195,7 @@ nav .checkbox i {
     order: -1;
   }
   .footer-row {
-    flex-direction: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 0.6rem;
@@ -245,7 +245,7 @@ nav .checkbox i {
 
 .description {
   line-height: 1.5rem;
-  color: var(--extra-light);
+  color: black;
   margin-bottom: 2rem;
 }
 
@@ -278,10 +278,6 @@ nav .checkbox i {
   background-color: var(--primary-color);
 }
 
-.logos {
-  display: flex;
-  gap: 1rem;
-}
 
 .logos a {
   width: 70px;
@@ -294,18 +290,14 @@ nav .checkbox i {
   cursor: pointer;
 }
 
-.description {
-  color: black;
-}
-
-nav .menu-container {
+/* nav .menu-container {
   display: flex;
   align-items: center;
   gap: 1rem;
   list-style: none;
   margin-left: auto;
   padding-right: 3rem;
-}
+} */
 footer {
   padding: 0.5rem 2rem;
   width: 100%;
@@ -324,6 +316,7 @@ footer {
 .footer-left p {
   margin: 0;
 }
+
 .logos {
   display: flex;
   gap: 0;
