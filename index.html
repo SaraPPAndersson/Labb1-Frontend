@@ -9,9 +9,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <nav>
+    <!-- nav border var header och hav borde flyttas ner så ul ligger i nav -->
+    <nav> 
       <div class="header">
         <div class="headerLogo"><a href="#">Sara Andersson</a></div>
         <label for="check" class="checkbox">
@@ -28,6 +30,7 @@
       </div>
     </nav>
     <main>
+      <!-- För månnga tomma container -->
       <section class="section">
         <div class="sectionContainer">
           <div class="content">
@@ -70,8 +73,15 @@
           <li>Tel: 072-715 32 85</li>
           <li>E-post: sara.andersson.sa@hotmail.com</li>
         </ul>
-        <p class="copyright">&copy; 2026 Sara Andersson, Varberg</p>
+        <p class="copyright" id="secretEgg" >&copy; 2026 Sara Andersson, Varberg</p>
       </div>
     </footer>
+    <div id="secondHiddenEgg" class="secretModal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Yayyyyyy</h2>
+        <p>Du löste det!</p>
+      </div>
+    </div>
   </body>
 </html>

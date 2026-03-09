@@ -357,3 +357,65 @@ footer a img {
   white-space: normal;
   overflow-wrap: anywhere;
 }
+
+.party,
+.party nav,
+.party main,
+.party footer,
+.party .section,
+.party .sectionContainer,
+.party .header {
+    animation: pastelParty 0.5s infinite;
+}
+
+@keyframes pastelParty {
+    0% {
+        background-color: #ffd6e0;
+    }
+    20% {
+        background-color: #d6f0ff;
+    }
+    40% {
+        background-color: #e8ffd6;
+    }
+    60% {
+        background-color: #fff5d6;
+    }
+    80% {
+        background-color: #e6d6ff;
+    }
+    100% {
+        background-color: #ffd6e0;
+    }
+}
+
+.secretModal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+

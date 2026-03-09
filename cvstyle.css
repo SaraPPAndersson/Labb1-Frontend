@@ -80,3 +80,15 @@ h1 {
   justify-content: center;
   gap: 1rem;
 }
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#skills p {
+  text-align: center;
+  width: 70%;
+}

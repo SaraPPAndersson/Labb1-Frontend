@@ -10,7 +10,8 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="cvstyle.css" />
-    <!-- <script src="cvscript.js" defer></script> -->
+    <script src="cvscript.js" defer></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <nav>
@@ -35,21 +36,24 @@
         <section class="cv-list">
           <article class="education">
             <h3>Utbildningar</h3>
-            <p>Systemutvecklare .NET 2025 - pågående</p>
-            <p>Hotell- och turism programmet 2011 - 2014</p>
+            <!-- <p>Systemutvecklare .NET 2025 - pågående</p>
+            <p>Hotell- och turism programmet 2011 - 2014</p> -->
+          <div id="education"></div>
           </article>
           <article class="work">
             <h3>Anställningar</h3>
-            <p>Montör - Alento AB 2016 - nuvarande</p>
-            <p>Kafébiträde Gekås Ullared 2014 - 2016</p>
+            <!-- <p>Montör - Alento AB 2016 - nuvarande</p>
+            <p>Kafébiträde Gekås Ullared 2014 - 2016</p> -->
+            <div id="work"></div>
           </article>
           <article class="skills">
             <h3>Skills</h3>
-            <p>C# / .NET</p>
+            <!-- <p>C# / .NET</p>
             <p>Agil arbetssätt / Scrum</p>
             <p>HTML & CSS</p>
             <p>Databas & SQL</p>
-            <p>Entity Framework & ADO.NET</p>
+            <p>Entity Framework & ADO.NET</p> -->
+          <div id="skills"></div>
           </article>
         </section>
       </section>
@@ -73,8 +77,15 @@
           <li>Tel: 072-715 32 85</li>
           <li>E-post: sara.andersson.sa@hotmail.com</li>
         </ul>
-        <p class="copyright">&copy; 2026 Sara Andersson, Varberg</p>
+        <p class="copyright" id="secretEgg" >&copy; 2026 Sara Andersson, Varberg</p>
       </div>
     </footer>
+     <div id="secondHiddenEgg" class="secretModal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Yayyyyyy</h2>
+          <p>Du löste det!</p>
+        </div>
+      </div>
   </body>
 </html>

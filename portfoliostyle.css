@@ -204,3 +204,11 @@ main {
 .botton:hover {
   color: black;
 }
+
+#projectList {
+  display: none;
+}
+
+#projectList.showProjects {
+  display: grid;
+}

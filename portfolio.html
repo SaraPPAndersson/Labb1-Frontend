@@ -10,6 +10,8 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="portfoliostyle.css" />
+    <script src="script.js" defer></script>
+    <script src="portfolioscript.js" defer></script>
   </head>
   <body>
     <nav>
@@ -29,11 +31,12 @@
       </div>
     </nav>
     <main>
+      <div id="loadingScreen">Laddar projekt...</div>
       <section class="title">
         <h1 class="maintitle">Projekt</h1>
       </section>
       <section class="projects-container">
-        <ul class="project-list">
+        <ul class="project-list" id="projectList">
           <!-- Projekt1 -->
           <li class="project-card">
             <h2>Bibliotek</h2>
@@ -89,12 +92,8 @@
         <a href="#" class="modal-overlay"></a>
         <div class="modal-box">
           <a href="#" class="modal-close">x</a>
-          <h2>Biblioteket</h2>
-          <p>
-            Mitt första C# projekt är att bygga ett bibliotek system där man kan
-            logga in, låna, lämna tillbaka böcker och även kolla vilka böcker
-            jag har lånat mm.
-          </p>
+          <h2 id="bibliotekName"></h2>
+          <p id="bibliotekText"></p>
         </div>
       </section>
 
@@ -119,11 +118,8 @@
         <a href="#" class="modal-overlay"></a>
         <div class="modal-box">
           <a href="#" class="modal-close">x</a>
-          <h2>Databas</h2>
-          <p>
-            Databasprojekt med EF & ADO.NET. Jag arbetade med
-            databaskommunikation i SSMS via C# med hjälp av EF och ADO.NET.
-          </p>
+          <h2 id="databasName"></h2>
+          <p id="databasText"></p>
         </div>
       </section>
     </main>
@@ -146,8 +142,17 @@
           <li>Tel: 072-715 32 85</li>
           <li>E-post: sara.andersson.sa@hotmail.com</li>
         </ul>
-        <p class="copyright">&copy; 2026 Sara Andersson, Varberg</p>
+        <p class="copyright" id="secretEgg">
+          &copy; 2026 Sara Andersson, Varberg
+        </p>
       </div>
     </footer>
+    <div id="secondHiddenEgg" class="secretModal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Yayyyyyy</h2>
+        <p>Du löste det!</p>
+      </div>
+    </div>
   </body>
 </html>
